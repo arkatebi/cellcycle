@@ -4,9 +4,8 @@ REQUIREMENTS TO RUN RACIPE:
  python 3.7 or above
 
 RACIPE INSTALLATION:
- 1. unzip racipe_1.1.4.zip 
- 2. cd racipe_1.1.4
- 3. Run make file: 
+ 1. git clone  https://github.com/arkatebi/cellcycle
+ 2. Run make file: 
     make
     This will create the necessary shared object files 
     (such as simulation_clib.so) that will be used by 
