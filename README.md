@@ -18,11 +18,14 @@ RACIPE INSTALLATION:
     the RACIPE software.
 
 CONFIGURATION FILE: racipe.cfg
-This file has the configuration information that the
+
+   This file has the configuration information that the
 RACIPE uses while running. If this file is not in the
 directory, the following command will create it:
+
    python racipe.py -M=C -I1=cellcycle.tpo
-The values in the configuration file can be changed
+
+   The values in the configuration file can be changed
 according to the user need.
 
 RACIPE COMMANDS:
