@@ -55,7 +55,6 @@ RACIPE COMMANDS:
 
 
 KNOCK DOWN OPTIONS: 
-
 6. Single knock down in (parameter range file is supplied):
    python racipe.py -M=P -I1=cellcycle.tpo -I2=cellcycle.prs  -KD=Cln1
 
