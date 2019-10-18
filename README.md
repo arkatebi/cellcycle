@@ -4,6 +4,7 @@ Modeling cellcycle gene regulatory circuit
 RACIPE STABLE VERSION: RACIPE_3.1.1
 
 REQUIREMENTS TO RUN RACIPE:
+
  gcc  
 
  python 3.7 or above
