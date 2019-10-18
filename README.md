@@ -10,7 +10,9 @@ REQUIREMENTS TO RUN RACIPE:
 RACIPE INSTALLATION:
  1. git clone  https://github.com/arkatebi/cellcycle
  2. Run make file: 
+
     make
+
     This will create the necessary shared object files 
     (such as simulation_clib.so) that will be used by 
     the RACIPE software.
