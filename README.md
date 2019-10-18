@@ -73,13 +73,13 @@ KNOCK DOWN OPTIONS:
    python racipe.py -M=A -I1=cellcycle.tpo -KD=Cln1,Clb5
 
 10. Make the following changes in racipe.cfg file to run in stochastic mode: 
-    ..1. ADDITTIVE_NOISE_LEVEL 30
-    ..2. SHOT_NOISE_LEVEL 0
-    ..3. INTEGRATION_METHOD:
+..1. ADDITTIVE_NOISE_LEVEL 30
+..2. SHOT_NOISE_LEVEL 0
+..3. INTEGRATION_METHOD:
          (1) EULER 
          (2) RUNGE_KUTTA 
              TOLERANCE 10e-12(default)
-    ..4. ANNEALING_LEVEL 1 
+..4. ANNEALING_LEVEL 1 
 
 OUTPUT FILES FROM RUNNING RACIPE S/W in full mode
 1. cellcycle.states.txt - gene expression for the stable states
