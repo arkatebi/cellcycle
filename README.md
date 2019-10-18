@@ -57,15 +57,19 @@ RACIPE COMMANDS:
 KNOCK DOWN OPTIONS: 
 
 6. Single knock down in (parameter range file is supplied):
+
    python racipe.py -M=P -I1=cellcycle.tpo -I2=cellcycle.prs  -KD=Cln1
 
 7. Double knock down in (parameter range file is supplied):
+
    python racipe.py -M=P -I1=cellcycle.tpo -I2=cellcycle.prs  -KD=Cln1,Clb5
 
 8. Single knock down in (full mode):
+
    python racipe.py -M=A -I1=cellcycle.tpo -KD=Cln1
 
 9. Double knock down in (full mode):
+
    python racipe.py -M=A -I1=cellcycle.tpo -KD=Cln1,Clb5
 
 10. Make the following changes in racipe.cfg file to run in stochastic mode: 
