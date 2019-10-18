@@ -52,14 +52,14 @@ KNOCK DOWN OPTIONS:
 9. Double knock down in (full mode):
    python racipe.py -M=A -I1=cellcycle.tpo -KD=Cln1,Clb5
 
-10.Make the following changes in racipe.cfg file to run in stochastic mode: 
-   (I)  ADDITTIVE_NOISE_LEVEL 30
-   (II) SHOT_NOISE_LEVEL 0
-   (III)INTEGRATION_METHOD:
+10. Make the following changes in racipe.cfg file to run in stochastic mode: 
+    (I)  ADDITTIVE_NOISE_LEVEL 30
+    (II) SHOT_NOISE_LEVEL 0
+    (III)INTEGRATION_METHOD:
          (1) EULER 
          (2) RUNGE_KUTTA 
              TOLERANCE 10e-12(default)
-   (IV)ANNEALING_LEVEL 1 
+    (IV)ANNEALING_LEVEL 1 
 
 OUTPUT FILES FROM RUNNING RACIPE S/W in full mode
 1. cellcycle.states.txt - gene expression for the stable states
@@ -78,4 +78,3 @@ OUTPUT FILES FROM RUNNING RACIPE S/W in full mode
 9. cellcycle.mpr.prs, cellcycle.dnr.prs, cellcycle.tsh.prs, cellcycle.hco.prs, and 
    cellcycle.fch.prs stores the ranges for the MPR, DNR, TSH, HCO, 
    and FCH, respectively. 
-
