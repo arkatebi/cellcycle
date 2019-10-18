@@ -17,6 +17,7 @@ RACIPE INSTALLATION:
     (such as simulation_clib.so) that will be used by 
     the RACIPE software.
 
+
 CONFIGURATION FILE: racipe.cfg
 
    This file has the configuration information that the
@@ -28,21 +29,29 @@ directory, the following command will create it:
    The values in the configuration file can be changed
 according to the user need.
 
+
 RACIPE COMMANDS:
 1. Generate configuration file (racipe.cfg):
+
    python racipe.py -M=C -I1=cellcycle.tpo
 2. Generate both thresholds and models (full mode):
+
    python racipe.py -M=A -I1=cellcycle.tpo
 3. Generate and save thresholds in the .prs file:
+
    python racipe.py -M=T -I1=cellcycle.tpo
 4. Generate models using thresholds from the .prs file
+
    python racipe.py -M=P -I1=cellcycle.tpo -I2=cellcycle.prs
 5. Generate probabilities of the nodes (half-functional rule):
+
    python racipe.py -M=S -I1=cellcycle.tpo \
                          -I4=cellcycle.states.txt \
                          -I5=cellcycle.params \
                          -O=cellcycle
+
    outputs are saved in cellcycle.edge.stat.txt file
+
 
 
 KNOCK DOWN OPTIONS: 
