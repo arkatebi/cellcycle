@@ -76,36 +76,3 @@ OUTPUT FILES FROM RUNNING RACIPE S/W in full mode
    cellcycle.fch.prs stores the ranges for the MPR, DNR, TSH, HCO, 
    and FCH, respectively. 
 
-
-HOW TO RUN ON SERVER:
-1. Copy all the scripts in the script folder to the parent directory.
-2. Change the program path <racipe_dir> in pre.sh to
-   the path where the RACIPE software is located. 
-3. Run pre.sh to obtain the configuration file racipe.cfg: 
-   ./pre.sh
-4. Change the working directory by changing the path 
-   (/fastscratch/<project_dir>) in the following command: 
-   cd /fastscratch/<project_dir>
-5. Change <racipe_dir> in input_pbs.sh to the absolute path 
-   where the RACIPE software is located:
-   python <racipe_dir>/racipe.py -M=P -I1=SC.tpo -I2=SC.prs -S=$1
-6. Run proc.sh using the qsub command:
-   qsub proc.sh 
-   This will create TEN instances of the RACIPE software running 
-   in the server.
-    
-USE OF OTHER SCRIPTS
-1. Use del.sh to kill the running jobs on the server. 
-2. Use clean.sh to delete all the folders and files 
-   created by the premature job.
-
-
-
-EXTENDED RACIPE UTILITIES
-
-perturb_params_sstate.py
-   inputs: 
-      (1) .tpo and .prs files as command line arguments
-      (2) models.txt - monostable models: hard coded
-      (3) cellcycle.states.unnormed.txt - ICs extracted from this file 
-
