@@ -23,7 +23,7 @@ CONFIGURATION FILE: racipe.cfg
 
    python racipe.py -M=C -I1=cellcycle.tpo
 
-   Here, cellcycle.tpo is circuit topology from user input. In the topology file, each line specifies a regulatory interaction in the format of "A B 1". Here, A is the regulator, B is the targeted gene, and ?1? is a number specifying the type of the interaction. 1: transcriptional activation; 2: transcriptional inhibition; 3: activation by inhibiting degradation; 4: inhibition by activating degradation; 5: signaling activation; 6: signaling inhibition.
+   Here, cellcycle.tpo is circuit topology from user input. In the topology file, each line specifies a regulatory interaction in the format of "A B 1". Here, A is the regulator, B is the targeted gene, and "1" is a number specifying the type of the interaction. 1: transcriptional activation; 2: transcriptional inhibition; 3: activation by inhibiting degradation; 4: inhibition by activating degradation; 5: signaling activation; 6: signaling inhibition.
 
    The parameters in the configuration file can be changed according to the user need.
 
