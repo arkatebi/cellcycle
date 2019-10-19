@@ -8,6 +8,7 @@ REQUIREMENTS TO RUN RACIPE:
  1. gcc  
  2. python 3.7 or above
 
+
 RACIPE INSTALLATION:
  1. git clone https://github.com/arkatebi/cellcycle
  2. Run make file: 
@@ -15,6 +16,7 @@ RACIPE INSTALLATION:
     make
 
     This will create the necessary shared object files (such as simulation_clib.so) that will be used by the RACIPE software.
+
 
 
 CONFIGURATION FILE: racipe.cfg
@@ -26,6 +28,7 @@ CONFIGURATION FILE: racipe.cfg
    Here, cellcycle.tpo is circuit topology from user input. In the topology file, each line specifies a regulatory interaction in the format of "A B 1". Here, A is the regulator, B is the targeted gene, and "1" is a number specifying the type of the interaction. 1: transcriptional activation; 2: transcriptional inhibition; 3: activation by inhibiting degradation; 4: inhibition by activating degradation; 5: signaling activation; 6: signaling inhibition.
 
    The parameters in the configuration file can be changed according to the user need.
+
 
 RACIPE COMMANDS:
 1. Generate configuration file (racipe.cfg):
@@ -51,6 +54,7 @@ RACIPE COMMANDS:
 
 
 
+
 OPTIONS FOR KNOCK DOWN PERTURBATIONS: 
 
 6. Single gene knock down in (parameter range file is supplied):
@@ -68,6 +72,7 @@ OPTIONS FOR KNOCK DOWN PERTURBATIONS:
 9. Double gene knock down in (full mode):
 
    python racipe.py -M=A -I1=cellcycle.tpo -KD=Cln1,Clb5
+
 
 
 OUTPUT FILES FROM RUNNING RACIPE in the full mode
