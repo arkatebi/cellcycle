@@ -80,6 +80,7 @@ def check_benchmark_format(fh_benchmark):
             return False
     return True
 
+
 if __name__ == '__main__':
     print (sys.argv[0] + ':')
     print (__doc__)

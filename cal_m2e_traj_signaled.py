@@ -99,6 +99,7 @@ def main():
     mg.generate_traj_mpr_signal(network, model_params_dict, estate_dict, FCHANGE)
     return None
 
+
 #**********************************************************************#
 if __name__=='__main__':
    start_time=time.time()
