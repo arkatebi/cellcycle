@@ -82,7 +82,6 @@ def main():
     #HCO_arr = params_list[3]
     #FCH_arr = params_list[4]
 
-
     # Create parameter variables with values assigned: 
     MPR_arr = np.array([50.00, 50.00, 50.00])
     DNR_arr = np.array([0.10, 0.10, 0.10])

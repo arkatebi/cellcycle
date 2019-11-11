@@ -982,6 +982,7 @@ def anneal_network_stochastic_gnw(network, model_no, params_list, steady_state_e
          )
     return None
 
+
 #-----------------------------------------------------------------------------#
 if __name__ == '__main__':
     print (sys.argv[0] + ':')

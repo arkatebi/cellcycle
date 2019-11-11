@@ -546,7 +546,6 @@ def generate_models(rcp):
     close_parameter_files(fh_dict_nodeparams,fh_dict_edgeparams)
     return None 
 
-
 #-----------------------------------------------------------------------------#
 if __name__ == '__main__':
     print (sys.argv[0] + ':')

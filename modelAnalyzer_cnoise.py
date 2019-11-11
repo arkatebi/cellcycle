@@ -583,6 +583,7 @@ def simulate_network_cnoise(network, model_no, params_list):
          )
     return None
 
+
 #-----------------------------------------------------------------------------#
 if __name__ == '__main__':
     print (sys.argv[0] + ':')

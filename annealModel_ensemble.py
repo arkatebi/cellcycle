@@ -87,7 +87,6 @@ def main():
     #    print(k)
     #    print(v)
     #    break
- 
 
     if (len(set(MODELS_TO_INSPECT)) == len(set(model_params_dict.keys()))):
         print("verified model ids ...")

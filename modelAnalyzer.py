@@ -603,6 +603,7 @@ def cal_time_traj(network, model_no, params_list):
          )
     return None
 
+
 #-----------------------------------------------------------------------------#
 if __name__ == '__main__':
     print (sys.argv[0] + ':')

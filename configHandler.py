@@ -117,6 +117,7 @@ def create_config(fname_config):
     fh_config.close()
     return None
 
+
 #**********************************************************************#
 if __name__ == '__main__':
     print (sys.argv[0] + ':')

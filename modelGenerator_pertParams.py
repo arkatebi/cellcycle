@@ -1356,6 +1356,7 @@ def generate_trajectory_sstate(network, model_params_dict, sstate_dict, estate_d
         #sys.exit(0)
     return 0
 
+
 #-----------------------------------------------------------------------------#
 if __name__ == '__main__':
     print (sys.argv[0] + ':')
