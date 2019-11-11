@@ -94,8 +94,6 @@ def analyze_data():
     expression_dict=OrderedDict
     while line in fh_TS1_solution_1: 
            
-
-
     return None 
 
 #-----------------------------------------------------------------------------#
