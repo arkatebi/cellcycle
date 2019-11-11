@@ -122,6 +122,7 @@ def parse_args():
     user_dict = check_args(args_dict,parser) 
     return user_dict
 
+
 if __name__ == '__main__':
     print (sys.argv[0] + ':')
     print (__doc__)
