@@ -95,7 +95,6 @@ def analyze_data():
     while line in fh_TS1_solution_1: 
            
     return None 
-
 #-----------------------------------------------------------------------------#
 if __name__ == '__main__':
     print (sys.argv[0] + ':')
