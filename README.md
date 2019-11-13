@@ -1,5 +1,5 @@
 # cellcycle
-Random Parametric Perturbations of Gene Regulatory Circuit Uncover State Transitions in Cell Cycle, by Ataur Katebi, Vivek Kohar, and Mingyang Lu (submitted). bioRxiv: http://dx.doi.org/10.1101/799965
+Random Parametric Perturbations of Gene Regulatory Circuit Uncover State Transitions in Cell Cycle, by Ataur Katebi, Vivek Kohar, and Mingyang Lu (submitted). Available at bioRxiv: http://dx.doi.org/10.1101/799965
 
 RACIPE STABLE VERSION: RACIPE_3.1.1
 
